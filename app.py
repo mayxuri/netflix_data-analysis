@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-# from wordcloud import WordCloud
+from wordcloud import WordCloud
 
 # Streamlit Page Configuration
 st.set_page_config(page_title="Netflix Data Analysis", layout="wide")
